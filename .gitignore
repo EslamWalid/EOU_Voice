@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+Demo_video.mp4
+FineTuning.ipynb
+main.ipynb
+out.wav
