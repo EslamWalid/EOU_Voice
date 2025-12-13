@@ -210,3 +210,4 @@ Demo_video.mp4
 FineTuning.ipynb
 main.ipynb
 out.wav
+.env.local
