@@ -149,7 +149,7 @@ via pip:
 
 SDK Usage Example
 
-    ```python
+    
 
     from arabic_eou.runner import ArabicEOURunner
 
@@ -161,14 +161,14 @@ SDK Usage Example
         vad=silero.VAD.load(),
 
         turn_detection=ArabicEOURunner(), # <-- MY SDK
-    )```
+    )
 
 
 ## 9. Setup and Running the Project
 
 ### 9.1 Create a Virtual Environment (Recommended)
 
-    ```bash
+    
     python -m venv venv
     source venv/bin/activate     # Linux / macOS
     venv\Scripts\activate        # Windows
@@ -176,7 +176,7 @@ SDK Usage Example
 
 ### 9.2 Install Dependencies
 
-    ```bash
+    
     pip install arabic-eou
     pip install livekit-agents
     pip install python-dotenv
@@ -185,11 +185,11 @@ SDK Usage Example
 
 Create a .env file in the project root with the following:
 
-    ```bash
+    
     LIVEKIT_API_KEY=your_livekit_api_key
     LIVEKIT_API_SECRET=your_livekit_api_secret
     LIVEKIT_URL=wss://your-livekit-server
-
+    # optional
     ELEVENLABS_API_KEY=your_elevenlabs_api_key
     GOOGLE_API_KEY=your_google_api_key
 
@@ -198,5 +198,5 @@ Create a .env file in the project root with the following:
 
 To start the LiveKit agent, run:
 
-    ```bash
+    
     python main.py console
